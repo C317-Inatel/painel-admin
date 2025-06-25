@@ -7,8 +7,8 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: true,
   },
+  base: '/painel-admin/',
   build: {
     sourcemap: mode === "development",
   },
-  base: "./",
 }));
